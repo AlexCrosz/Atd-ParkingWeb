@@ -5,6 +5,7 @@
         </h2>
     </x-slot>
 
+
     <div class="container text-center">
         <form action="{{route('update', $vehicle)}}" method="post">
             @method('patch')
